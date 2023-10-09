@@ -1,0 +1,17 @@
+Flex-Box
+
+- É uma técnica CSS utilizada para posionar os elementos em tela
+QUando utilizamos esse recurso, recebemos a possibilidade de tulizar novos comandos
+O flex-box aplica suas personizações ao elemento filho de quem for aplicado.
+
+ex: se eu quero aplicar a configuração de centralizar os dados, tenho que colocar a propiedade no pai " header".
+	-- Técnica Flex-Box --
+ * flex-direction: padrão "Row" -> direção de linha.. um do lado do outro.
+ 	* Display: flex -> todos os elementos um do lado do outro.
+ * flex-direction: column; ->  coloca um do lado do outro
+ * "" flex-direction: column-reverse; -> caso queira que os elementos ficam invertidos ex: a imagem depois da lista.	 
+ * align-items: center; -> alinhar os itens no centro
+ 
+- Hover
+  - É responsável por fazer uma animação quando você colocar o cursor do mouse sobre o elemento.
+			

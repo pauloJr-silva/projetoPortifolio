@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+
+*{ /* Aplica para todos elementos */ /*para  zerar as margens padrões do navegador*/
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body{
+  background-color: rgb(127, 218, 241)
+}
+
+header{
+  background-color: #000;  /* cor de fundo do header*/
+  color: #fff;  /* cor da fonte */
+  display: flex;  /* Técnica Flex-Box*/
+  flex-direction: column; /* direção em colunas dos itens no header*/
+  align-items: center; /* alinnhar os itens ao centro*/
+  padding: 20px;  /* espaçamento interno*/
+}
+
+header img{
+  width: 100px;
+  border: 2px solid #fff;
+  border-radius: 8px;
+}
+
+header nav ul{
+    list-style: none; /* estilo da lista - "none" - para não ter nenhum estilo na lista 'marcadores'*/
+    text-transform: uppercase; /* deixar o texto em caixa alta*/
+}
+
+header nav li{ /* alterar os itens da lista */
+  display: inline-block; /* posição em bloco na linha*/
+  padding: 25px; /* espaçamento entre os itens da lista*/
+  font-size: 16px;
+}
+
+header nav li:hover { /* li - com animação*/
+  background-color: #fff;
+  color: #000;
+  cursor: pointer; /* efeito de ser clicavel*/
+  padding: 12px 25px;
+}
+
+footer{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+footer nav ul{
+  list-style: none;
+  
+}
+footer img{
+  width: 25px;
+  border: #fff;
+  border-radius: 10px;
+  align-items: center;
+  padding: 10px;
+}
+
+.informacoes{
+  display: flex;
+  padding: 15px;
+}
+
+.informacoes img{
+  padding: 0 20px;
+  width: 600px;
+  height: 600px;
+}
+
+.informacoes p{
+  font-size: 15px;
+  text-align: justify;
+ }
+
+main h1 {
+  padding: 15px ;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(14, 89, 114);
+  font-size: 25px;
+}
