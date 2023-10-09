@@ -44,27 +44,6 @@ header nav li:hover { /* li - com animação*/
   padding: 12px 25px;
 }
 
-footer{
-  background-color: #000;
-  color: #fff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 20px;
-}
-
-footer nav ul{
-  list-style: none;
-  
-}
-footer img{
-  width: 25px;
-  border: #fff;
-  border-radius: 10px;
-  align-items: center;
-  padding: 10px;
-}
-
 .informacoes{
   display: flex;
   padding: 15px;
@@ -87,4 +66,38 @@ main h1 {
   font-family: 'Press Start 2P', cursive;
   color: rgb(14, 89, 114);
   font-size: 25px;
+}
+
+footer{
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  text-align: center;
+}
+
+footer h3{
+  text-transform: uppercase;
+  
+}
+footer ul li{
+  margin-top: 5px;
+  list-style: none;
+
+}
+
+.link_sociais{
+   display: flex; 
+   margin-top: 25px;
+}
+
+.link_sociais img{
+  width: 30px;
+}
+
+.link_sociais li{
+  list-style: none;
+  padding: 0 15px;
 }
