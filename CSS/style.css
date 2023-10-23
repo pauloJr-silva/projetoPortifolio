@@ -101,3 +101,25 @@ footer ul li{
   list-style: none;
   padding: 0 15px;
 }
+
+.tecnologias{
+  font-size: 1.5rem;
+  padding: 25px;
+}
+
+.aprendizado .tecnologias{
+  display: flex;
+}
+
+.aprendizado .tecnologias figure{
+  padding: 25px;
+  margin: 25px auto;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 0 10px black;
+}
+
+.aprendizado .tecnologias img{
+  width: 80px;
+  height: 80px;
+}
